@@ -9,7 +9,7 @@
         <div class="py-2">
           <input class="w-full p-2 rounded-lg shadow-sm border-2 border-purple-500 outline-none text-sm" type="date" name="date" id="date" placeholder="Date" v-model="date">
         </div>
-        <div id="prioritize" class="my-6 grid grid-cols-2 gap-4">
+        <div id="prioritize" class="my-6 grid md:grid-cols-2 sm:grid-cols-1 gap-4">
           <todo-card class="bg-white dark:bg-gray-800 border-2 dark:border-gray-800 focus-within:border-red-500 dark:focus-within:border-red-500 rounded-sm">
             <template #default>
               <label for="important" class="cursor-pointer">
